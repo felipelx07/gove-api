@@ -1,14 +1,14 @@
-# gove-api
 
 
+## Obtendo Lista de NFe por Período
 
-## Request JSON
+#### Request JSON
 
 ```
 curl: http://localhost:8080/gove-api/rest/v1/nfe/listByDate?dataInicial=2018-07-01&dataFinal=2018-09-30&start=1&max=1000
 ```
 
-## Response JSON
+#### Response JSON
 
 ```
 [
@@ -27,4 +27,13 @@ curl: http://localhost:8080/gove-api/rest/v1/nfe/listByDate?dataInicial=2018-07-
         "dataEmissao": "2018-07-26 00:00:00.0"
     }
 ]
-    ```
+```
+
+## Obtendo Lista de NFe por Nº do Documento
+[...]
+
+## Obtendo Lista de NFe por Fornecedor
+[...]
+
+## Obtendo Lista de NFe por Situação e Período
+[...]
